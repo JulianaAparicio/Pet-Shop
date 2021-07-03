@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Inicio HEADER*/
+
+
+/* PARTE 1*/
+
+.container {
+    align-items: center;
+    background-color:#222222;
+    color: #F3F3F3;
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    justify-content: space-between;
+    padding: 4px;
+    padding-left: 90px;
+}
+
+.menu-1 {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    padding: 4px;
+    padding-right: 60px;
+}
+
+
+/* PARTE 2*/
+
+.logo {
+    align-items: center;
+    background-color: #F0A83E;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 58px;
+}
+
+.logo1 {
+    color:#3C2313;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.logo2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu-2 {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+li {
+    margin-left: 15px;
+}
+
+/* Fin HEADER*/
+
+
+/*Inicio MAIN*/
+
+/* SECCION SUPERIOR */
+
+.superior {
+    background-image: url("/img/Imagen\ Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+}
+
+.heroe {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 107px;
+    padding-left: 648px;
+    padding-top: 156px;
+}
+
+h2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color:#3C2313;
+    display: flex;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+.boton1 {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px 23px;
+}
+
+/* SECCION PRODUCTOS DESTACADOS */
+
+h3 { 
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.subtitulo {
+    color: #666666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.productos-dest {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes-productos {
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20px;
+}
+
+.nombre-productos {
+    align-items: center;
+    background-color: #FBFAF6;
+    display: flex;
+    justify-content: center;
+}
+
+.precio-productos {
+    align-items: center;
+    background-color: #FBFAF6;
+    color: #F0A83E;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SECCION DE CONTACTO */
+
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 78px;
+    text-align: center;
+}
+
+.menu-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-3 li {
+    align-items: center;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    flex-direction: column;
+    height: 40px;
+    line-height: 11px;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 340px;
+}
+
+.botones-contacto {
+    color: #FFFFFF;
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+
+.boton-resetear {
+    background-color: #8A8787;
+    border-radius: 15px;
+    padding: 8px 25px 7px 22px; 
+}
+
+.boton-enviar {
+    background-color:#F0A83E;
+    border-radius: 15px;
+    margin-left: 6px;
+    padding: 8px 34px 7px 32px; 
+}
+
+/*Fin MAIN*/

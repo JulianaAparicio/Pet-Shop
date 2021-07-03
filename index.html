@@ -2,54 +2,99 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name=”viewport” content”width=device-width, initial-scale=1.0”>
     <title>Front Cat&Dog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <header>
-        <nav>
-        <p>Grandes ofertas en comederos</p>
-        <ul>
-        <li>Español</li>
-        <li>ARG$</li>
-        </ul>
-        <h1><img src="img/Gato.png" alt="Gato logo">FrontCat&Dog <img src="img/Dog.png" alt="Perro logo"></h1>
+     <nav>
+      <div class="container">
+        <div class="texto">Grandes ofertas en comederos</div>
+        <ul class="menu-1">    
+            <li><a href="">Español</a></li>
+            <li><a href="">ARG$</a></li> 
+        </ul>    
+      </div>
 
+      <div class="logo">
+        <h1><img src="img/Gato.png" alt="Gato logo"><span class="logo1">Front</span><span class="logo2">Cat&Dog</span><img src="img/Dog.png" alt="Perro logo"></h1>
         <ul>
-            <li><img src="img/pata.png" alt="Paw">Categorías</li>
-            <li><img src="img/pata.png" alt="Paw">Pets</li>
-            <li><img src="img/pata.png" alt="Paw">Nosotros</li>
-            <li><img src="img/pata.png" alt="Paw">Contactanos</li>
+          <div class="menu-2">
+            <li><img src="img/pawprint sin fondo.png" alt="pawprint">Categorías</li>
+            <li><img src="img/pawprint sin fondo.png" alt="pawprint">Pets</li>
+            <li><img src="img/pawprint sin fondo.png" alt="pawprint">Nosotros</li>
+            <li><img src="img/pawprint sin fondo.png" alt="pawprint">Contactanos</li>
+          </div>
         </ul>
-        </nav>
+      </div>
+     </nav>
     </header>
 
     <main>
-        <section>
-            <img src="img/Imagen Background.png" alt="Imagen background">
+        <section class="superior">
+          <div class="heroe">
             <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <a href="">COMEDEROS</a>
+            <p class="texto2">¡Comederos en descuento!</p>
+            <a class="boton1" href="">COMEDEROS</a>
+          </div>
         </section>
 
         <section>
+          <div class="productos-dest">
             <img src="img/pawprint 1.png" alt="Imagen Patita">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
+            <h3>Productos Destacados</h3>
+            <p class="subtitulo">Comederos - Accesorios - Comida</p>
+          </div>
 
-            <img src="img/churrasquito.png" alt="Imagen juguete">
-            <div>Juguete Churrasquito</div>
-            <p>$150</p>
-            <img src="img/comedero.png" alta="Imagen Comedero">
-            <div>Comedero para perro</div>
-            <p>$250</p>
-            <img src="img/Huesito.png" alt="Imagen huesito">
-            <div>Juguete Huesito</div>
-            <p>$650</p>
+          <div class="productos">
+            <div class=" imagenes-productos">
+               <img src="img/churrasquito.png" alt="Imagen juguete">
+               <img src="img/comedero.png" alta="Imagen Comedero">
+               <img src="img/Huesito.png" alt="Imagen huesito">
+            </div>
+
+            <div class="nombre-productos">
+               <p>Juguete Churrasquito</p>
+               <p>Comedero para perro</p>
+               <p>Juguete Huesito</p>
+            </div>
+
+            <div class="precio-productos">
+               <p>$150</p>
+               <p>$250</p>
+               <p>$650</p>
+            </div>  
+
+        </div>
+
+        </section>
+
+        <section>
+          <h4>Contáctanos</h4>
+          <ul class="menu-3">
+            <li>Nombre y Apellido</li>
+            <li>Ingresá tu correo electrónico</li>
+            <li>Teléfono</li>
+          </ul>
+          
+          <div class="botones-contacto">
+            <a class="boton-resetear" href="">Resetear</a>
+            <a class="boton-enviar" href="">Enviar</a>
+          </div>
         </section>
     </main>
 
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <div class="footer-top"><i class="fas fa-map-marker-alt"></i>Localidad</div>
+        <div class="footer-top">Calle-provincia</div>
+        <div class="footer-top"><i class="fas fa-phone-volume"></i>Teléfono</div>
+        <div class="footer-top">Número de teléfono</div>
+        <div class="footer-top"><i class="far fa-envelope"></i>Correo Electrónico</div>
+        <div class="footer-top">Dirección de correo</div>
+        <div class="footer-bottom">Todos los derechos reservados Front End</div>
     </footer>
 </body>
 
