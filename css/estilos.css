@@ -9,7 +9,12 @@
     text-decoration: none;
 }
 
-/* Inicio HEADER*/
+a:link,
+a:visited {
+    color: #F3F3F3;
+}
+
+/*                           Inicio HEADER                         */
 
 
 /* PARTE 1*/
@@ -72,26 +77,28 @@ li {
     margin-left: 15px;
 }
 
-/* Fin HEADER*/
+/*                       Fin HEADER                           */
 
 
-/*Inicio MAIN*/
+
+/*                       Inicio MAIN                          */
 
 /* SECCION SUPERIOR */
 
 .superior {
-    background-image: url("/img/Imagen\ Background.png");
+    background-image: url("Imagen\ Background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 550px;
 }
 
 .heroe {
-    align-items: center;
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
     padding-bottom: 107px;
     padding-left: 648px;
+    padding-right: 12px;
     padding-top: 156px;
 }
 
@@ -107,14 +114,27 @@ h2 {
     text-align: center;
 }
 
-.boton1 {
+.texto-comederos {
+    color: #3C2313;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    padding-bottom: 12px;
+    padding-right: 95px;
+    padding-top: 12px;
+}
+
+.boton-comederos {
     background-color: #F0A83E;
     border-radius: 5px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
+    margin-right: 117px;
     padding: 15px 23px;
 }
+
+
 
 /* SECCION PRODUCTOS DESTACADOS */
 
@@ -130,49 +150,60 @@ h3 {
     font-size: 15px;
     font-style: normal;
     font-weight: normal;
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-bottom: 49px;
     padding-top: 20px;
 }
 
 .productos-dest {
     align-items: center;
+    background-color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 20px;
 }
 
+
+
+/* SECCION PRODUCTOS CON IMAGENES */
+
 .productos {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;   
+    margin-right: 95;
+    margin-left: 95;   
+}
+
+.producto1, .producto2, .producto3 {
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.imagenes-productos {
-    align-items: center;
-    display: flex;
-    justify-content:space-between;
-    padding-left: 20px;
+.nombre-producto {
+    color:#3C2313;
 }
 
-.nombre-productos {
-    align-items: center;
-    background-color: #FBFAF6;
-    display: flex;
-    justify-content: center;
+.precio-producto {
+    color:#F0A83E;
 }
 
-.precio-productos {
-    align-items: center;
-    background-color: #FBFAF6;
-    color: #F0A83E;
-    display: flex;
-    justify-content: center;
+.precio-producto, .nombre-producto {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
 }
+
+
 
 
 /* SECCION DE CONTACTO */
 
-
 h4 {
+    color: #3C2313;
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 20px;
@@ -188,7 +219,7 @@ h4 {
 }
 
 .menu-3 li {
-    align-items: center;
+    align-items: flex-start;
     background-color: #3C2313;
     border-radius: 15px;
     color: #FFFFFF;
@@ -203,6 +234,7 @@ h4 {
     list-style-type: none;
     margin-bottom: 10px;
     margin-left: 15px;
+    padding-left: 14.11px;
     width: 340px;
 }
 
@@ -228,4 +260,117 @@ h4 {
     padding: 8px 34px 7px 32px; 
 }
 
-/*Fin MAIN*/
+/* SECCION DE SUSCRIPCION */
+
+.container-suscripcion {
+    align-items: center;
+    background-color:#F0A83E;
+    display: flex;
+    height: 60px;
+    padding-left: 23px;
+    top: 11449px;
+}
+
+.suscripcion-1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 270px;
+}
+
+.suscripcion-2 {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    color:#A0A0A0;
+    font-size: 10px;
+    margin-left: 270px;
+    padding: 14px 148px 15px 8px;
+
+}
+
+.boton-suscribirme {
+    background-color: #3C2313;
+    border-radius: 15px;
+    color:#FFFFFF;
+    margin-left: 5px;
+    margin-right: 47px;
+    padding: 12px;
+}
+
+
+/*                           Fin MAIN                          */
+
+
+/*                         Inicio FOOTER                       */
+
+.footer-container {
+    background-color:#3C2313;
+    display: flex;
+    height: 281px;
+    position: relative;
+}
+
+.icono-1, .icono-2, .icono-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 54px;
+}
+
+.footer-localidad, .footer-correo, .footer-telefono {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 54px;
+}
+
+.footer-texto {
+    align-items: center;
+    color:#8A8787;
+    display: inline-block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer-nombres {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer-logo {
+    align-items: center;
+    background-color: #3C2313;
+    display: flex;
+}
+
+.logofooter1 {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.logofooter2 {
+    color: #F0A83E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer-abajo {
+    align-items: center;
+    background-color: #222222;
+    color:#FFFFFF;
+    display: flex;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    padding: 4px;
+}
+
+/*                         Fin FOOTER                       */
