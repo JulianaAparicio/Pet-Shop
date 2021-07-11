@@ -1,2 +1,6 @@
 # Pet-Shop
-Frontend
+Proyecto de Frontend
+
+Lenguajes utilizados:
+
+HTML, CSS
