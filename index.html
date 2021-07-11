@@ -73,51 +73,61 @@
         </section>
 
         <section>
+          <div class="container-contactanos">
           <h4>Contáctanos</h4>
-          <ul class="menu-3">
-            <li>Nombre y Apellido</li>
-            <li>Ingresá tu correo electrónico</li>
-            <li>Teléfono</li>
-          </ul>
-          
-          <div class="botones-contacto">
-            <a class="boton-resetear" href="">Resetear</a>
-            <a class="boton-enviar" href="">Enviar</a>
-          </div>
-        </section>
-
-        <section>
-          <div class="container-suscripcion">
-            <img src="img/enviar-correo.png" alt="enviar correo">
-            <span class="suscripcion-1">Suscríbete para más novedades</span>
-            <span class="suscripcion-2">Ingresá tu correo electronico</span>
-            <a class="boton-suscribirme" href="">Suscribirme</a>
+          <form action="" method="POST">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+            <label for="tel"></label>
+            <input type="text" name="tel" id="tel" placeholder="Teléfono">
+            <div class="form-button">
+              <input class="resetear" type="reset">  
+              <input class="enviar" type="submit">
+            </div>
+          </form>
           </div>
         </section>
     </main>
 
     <footer>
-      <div class="footer-container">
-        <div class="footer-iconos">
-          <img class="icono-1" src="img/Icono ubicacion.png" alt="Localidad">
-          <img class="icono-2" src="img/Icono telefono.png" alt="Telefono">
-          <img class="icono-3" src="img/Icono correo.png" alt="Correo Electrónico">
-        </div>
-        <div class="footer-nombres">
-          <div class="footer-localidad">Localidad</div>
-          <div class="footer-telefono">Teléfono</div>
-          <div class="footer-correo">Correo Electrónico</div>
-        </div>
-        <div class="footer-texto">
-          <p>Calle-provincia</p>
-          <p>Número de teléfono</p>
-          <p>Dirección de correo</p>
-        </div>  
-        <div class="footer-logo">
-          <img src="img/Gato.png" alt="Gato logo"><span class="logofooter1">Front</span><span class="logofooter2">Cat&Dog</span><img src="img/Dog.png" alt="Perro logo">
-        </div>
+
+<!-- FOOTER SECTOR SUSCRIPCION -->
+
+      <div class="container-suscripcion">
+        <img src="img/enviar-correo.png" alt="enviar correo">
+        <span class="suscripcion-1">Suscríbete para más novedades</span>
+        <span class="suscripcion-2">Ingresá tu correo electronico</span>
+        <a class="boton-suscribirme" href="">Suscribirme</a>
       </div>
-      <div class="footer-abajo">Todos los derechos reservados Front End</div>
+
+<!-- FOOTER SECTOR DATOS DE LA EMPRESA -->
+    <div class="footer-container">
+      <div class="footer-datos">
+        <div class="footer-localidad">
+          <img src="img/Icono ubicacion.png" alt="Localidad">
+          <div>Localidad</div>
+          <p>Calle-provincia</p>
+        </div>
+        <div class="footer-telefono">
+          <img src="img/Icono telefono.png" alt="Telefono">
+          <div>Teléfono</div>
+          <p>Número de teléfono</p>
+        </div>
+        <div class="footer-correo">
+          <img src="img/Icono correo.png" alt="Correo Electrónico">
+          <div>Correo Electrónico</div>
+          <p>Dirección de correo</p>
+        </div>     
+      </div>    
+      <div class="footer-logo">
+        <img src="img/Gato.png" alt="Gato logo"><span class="logofooter1">Front</span><span class="logofooter2">Cat&Dog</span><img src="img/Dog.png" alt="Perro logo">
+      </div>
+    </div>
+      <div class="footer-abajo">
+        <p>Todos los derechos reservados Front End</p>
+      </div>
     </footer>
 </body>
 

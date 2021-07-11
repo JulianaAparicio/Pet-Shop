@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -77,6 +77,7 @@ li {
     margin-left: 15px;
 }
 
+
 /*                       Fin HEADER                           */
 
 
@@ -135,7 +136,6 @@ h2 {
 }
 
 
-
 /* SECCION PRODUCTOS DESTACADOS */
 
 h3 { 
@@ -166,8 +166,7 @@ h3 {
 }
 
 
-
-/* SECCION PRODUCTOS CON IMAGENES */
+/* SECCION CARDS DE PRODUCTOS */
 
 .productos {
     background-color: white;
@@ -211,60 +210,60 @@ h4 {
     text-align: center;
 }
 
-.menu-3 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.menu-3 li {
-    align-items: flex-start;
-    background-color: #3C2313;
-    border-radius: 15px;
-    color: #FFFFFF;
-    display: flex;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: normal;
-    flex-direction: column;
-    height: 40px;
-    line-height: 11px;
-    justify-content: center;
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    padding-left: 14.11px;
-    width: 340px;
-}
-
-.botones-contacto {
-    color: #FFFFFF;
-    display: flex;
-    font-style: normal;
-    font-weight: normal;
-    justify-content: center;
-    padding-bottom: 75px;
-}
-
-.boton-resetear {
-    background-color: #8A8787;
-    border-radius: 15px;
-    padding: 8px 25px 7px 22px; 
-}
-
-.boton-enviar {
-    background-color:#F0A83E;
-    border-radius: 15px;
-    margin-left: 6px;
-    padding: 8px 34px 7px 32px; 
-}
 
 /* SECCION DE SUSCRIPCION */
 
+/* agregado:*/
+
+.container-contactanos {
+    height: 200px;
+    margin-left: 340px;
+    margin-right: 340px;
+    max-width: 340px;
+    padding-bottom: 75px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 41px;
+}
+
+.resetear, .enviar {
+    border-radius: 15px;
+    color: #FFFFFF; 
+    padding: 8px 25px 8px 22px;
+}
+
+.resetear {
+    background-color: #8A8787;
+}
+
+.enviar {
+    background-color: #F0A83E;
+}
+
+
+
+/*                           Fin MAIN                          */
+
+
+
+
+/*                         Inicio FOOTER                       */
+
+/* FOOTER SECTOR SUSCRIPCION */
+
 .container-suscripcion {
     align-items: center;
-    background-color:#F0A83E;
+    background-color: #F0A83E;
     display: flex;
     height: 60px;
     padding-left: 23px;
@@ -298,53 +297,42 @@ h4 {
     padding: 12px;
 }
 
-
-/*                           Fin MAIN                          */
-
-
-/*                         Inicio FOOTER                       */
+/* FOOTER SECTOR DATOS DE LA EMPRESA */
 
 .footer-container {
-    background-color:#3C2313;
-    display: flex;
-    height: 281px;
     position: relative;
 }
 
-.icono-1, .icono-2, .icono-3 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-left: 54px;
+.footer-datos {
+    background-color:#3C2313;
+    height: 350px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-top: 20px;
 }
 
-.footer-localidad, .footer-correo, .footer-telefono {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-left: 54px;
-}
-
-.footer-texto {
-    align-items: center;
-    color:#8A8787;
-    display: inline-block;
-    font-size: 15px;
+.footer-datos p {
+    color:#8A8787; 
+    font-size: 10px;
     font-style: normal;
     font-weight: bold;
+    line-height: 12px;
+    padding-left: 91px;
 }
 
-.footer-nombres {
-    color: #FFFFFF;
+.footer-localidad div, .footer-telefono div, .footer-correo div {
+    color: #FFFFFF;  
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
+    padding-left: 91px;
 }
 
 .footer-logo {
-    align-items: center;
     background-color: #3C2313;
-    display: flex;
+    bottom: 160px;
+    left: 1100px;
+    position: absolute;
 }
 
 .logofooter1 {
@@ -363,14 +351,17 @@ h4 {
 
 .footer-abajo {
     align-items: center;
-    background-color: #222222;
-    color:#FFFFFF;
+    background-color: #222222; 
     display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+.footer-abajo p {
+    color:#FFFFFF;
     font-size: 15px;
     font-style: normal;
     font-weight: bold;
-    justify-content: center;
-    padding: 4px;
 }
 
 /*                         Fin FOOTER                       */
