@@ -1,6 +1,8 @@
 # Pet-Shop
-Proyecto de Frontend
+Proyecto de Frontend I (Certified Tech Developer)
 
-Lenguajes utilizados:
+Lenguajes y herramientas utilizadas:
 
-HTML, CSS
+- HTML 
+- CSS
+- Sass

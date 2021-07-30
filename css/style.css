@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #F3F3F3;
+}
+
+header nav .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 400;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.25rem;
+  padding-left: 5.63rem;
+  padding-right: 3.75rem;
+}
+
+header nav .menu-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+header nav .logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F0A83E;
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.25rem;
+  padding-left: 2.69rem;
+}
+
+header nav .logo1 {
+  color: #3C2313;
+  font-weight: 700;
+  font-size: 1,25rem;
+}
+
+header nav .logo2 {
+  color: #FFFFFF;
+  font-size: 1,25rem;
+  font-weight: 700;
+}
+
+header nav .menu-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0,81rem;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+header nav li {
+  padding-left: 1.25rem;
+}
+
+main .superior {
+  background-image: url("../img/Imagen-Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34.38rem;
+}
+
+main .heroe {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 34.38rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main h2 {
+  background-color: #FFFFFF;
+  border-radius: 0.31rem;
+  color: #3C2313;
+  font-size: 1.88rem;
+  font-weight: 400;
+  margin-right: 0.75rem;
+  padding: 0.63rem;
+  text-align: center;
+}
+
+main .texto-comederos {
+  color: #3C2313;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 5.94rem;
+  padding-top: 0.75rem;
+}
+
+main .boton-comederos {
+  background-color: #F0A83E;
+  border-radius: 0.31rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 7.31rem;
+  margin-top: 0.75rem;
+  padding: 0.94rem 1.44rem;
+}
+
+main h3 {
+  color: #3C2313;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 0.44rem;
+}
+
+main .productos-dest {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+main .productos-dest .subtitulos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.94rem;
+  font-weight: 400;
+  gap: 0.81rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.10rem;
+  padding-top: 1.25rem;
+}
+
+main .productos {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.37rem;
+  padding-top: 2.5rem;
+}
+
+main .productos .producto1, main .productos .producto2, main .productos .producto3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FBFAF6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
+main .productos .producto1 .precio-producto, main .productos .producto1 .nombre-producto, main .productos .producto2 .precio-producto, main .productos .producto2 .nombre-producto, main .productos .producto3 .precio-producto, main .productos .producto3 .nombre-producto {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+main .productos .producto1 .precio-producto, main .productos .producto2 .precio-producto, main .productos .producto3 .precio-producto {
+  color: #F0A83E;
+}
+
+main .productos .producto1 .nombre-producto, main .productos .producto2 .nombre-producto, main .productos .producto3 .nombre-producto {
+  color: #3C2313;
+}
+
+main .container-contactanos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 59.94rem;
+  padding-top: 1.88rem;
+}
+
+main .container-contactanos .form-contactanos::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+main .container-contactanos .form-contactanos:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+main .container-contactanos .form-contactanos::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+main .container-contactanos .form-contactanos::placeholder {
+  color: #FFFFFF;
+}
+
+main .container-contactanos form input {
+  border-radius: 0.94rem;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.94rem;
+  padding-right: 14.43rem;
+}
+
+main .container-contactanos h4 {
+  color: #3C2313;
+  font-size: 1.56rem;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+}
+
+/* SECCION DE SUSCRIPCION */
+/* agregado:*/
+.container-contactanos {
+  height: 200px;
+  margin-left: 340px;
+  margin-right: 340px;
+  max-width: 340px;
+  padding-bottom: 75px;
+}
+
+form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  padding-top: 41px;
+}
+
+.resetear, .enviar {
+  border-radius: 15px;
+  color: #FFFFFF;
+  padding: 8px 25px 8px 22px;
+}
+
+.resetear {
+  background-color: #8A8787;
+}
+
+.enviar {
+  background-color: #F0A83E;
+}
+
+/*                           Fin MAIN                          */
+/*                         Inicio FOOTER                       */
+/* FOOTER SECTOR SUSCRIPCION */
+.container-suscripcion {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F0A83E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  padding-left: 23px;
+  top: 11449px;
+}
+
+.suscripcion-1 {
+  color: #FFFFFF;
+  font-size: 1,25rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 270px;
+}
+
+.suscripcion-2 {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  color: #A0A0A0;
+  font-size: 0,56rem;
+  margin-left: 270px;
+  padding: 14px 148px 15px 8px;
+}
+
+.boton-suscribirme {
+  background-color: #3C2313;
+  border-radius: 15px;
+  color: #FFFFFF;
+  margin-left: 5px;
+  margin-right: 47px;
+  padding: 12px;
+}
+
+/* FOOTER SECTOR DATOS DE LA EMPRESA */
+.footer-container {
+  position: relative;
+}
+
+.footer-datos {
+  background-color: #3C2313;
+  height: 350px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+.footer-datos p {
+  color: #8A8787;
+  font-size: 0,63rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 12px;
+  padding-left: 91px;
+}
+
+.footer-localidad div, .footer-telefono div, .footer-correo div {
+  color: #FFFFFF;
+  font-size: 1,25rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 91px;
+}
+
+.footer-logo {
+  background-color: #3C2313;
+  bottom: 160px;
+  left: 1100px;
+  position: absolute;
+}
+
+.logofooter1 {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1,25rem;
+}
+
+.logofooter2 {
+  color: #F0A83E;
+  font-size: 1,25rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.footer-abajo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.3rem;
+}
+
+.footer-abajo p {
+  color: #FFFFFF;
+  font-size: 0,94rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*                         Fin FOOTER                       */
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,137 @@
+main {
+            
+.superior {
+    background-image: url("../img/Imagen-Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34.38rem;
+}
+
+.heroe {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 34.38rem;
+    justify-content: center;
+}
+
+h2 {
+    background-color: $color-fondo-principal;
+    border-radius: 0.31rem;
+    color: $color-secundario;
+    font-size: 1.88rem;
+    font-weight: 400;
+    margin-right: 0.75rem;
+    padding: 0.63rem;
+    text-align: center;
+}
+
+.texto-comederos {
+    color: $color-secundario;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 5.94rem;
+    padding-top: 0.75rem;
+}
+
+.boton-comederos {
+    background-color: $color-principal;
+    border-radius: 0.31rem;
+    color: $color-fondo-principal;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 7.31rem;
+    margin-top: 0.75rem;
+    padding: 0.94rem 1.44rem;
+}
+
+
+
+h3 { 
+    color: $color-secundario;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 0.44rem;
+}
+
+.productos-dest {
+    align-items: center;
+    background-color: $color-fondo-principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+
+    .subtitulos {
+        align-items: center;
+        color: $color-letrita;
+        display: flex;
+        font-size: 0.94rem;
+        font-weight: 400;
+        gap: 0.81rem;
+        justify-content: center;
+        line-height: 1.10rem;
+        padding-top: 1.25rem;
+    }
+}
+
+
+
+.productos {
+    background-color: $color-fondo-principal;
+    display: flex;
+    justify-content: center;
+    gap: 1.37rem;
+    padding-top: 2.5rem;      
+
+    .producto1, .producto2, .producto3 {
+        align-items: center;
+        background-color: $color-fondo-productos;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+        
+        .precio-producto, .nombre-producto {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .precio-producto {
+            color: $color-principal;
+        }
+
+        .nombre-producto {
+            color: $color-secundario;
+        }
+    }
+}
+
+.container-contactanos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 59.94rem;
+    padding-top: 1.88rem;
+
+    .form-contactanos::placeholder {
+        color: $color-fondo-principal;
+    }
+
+    form {
+        input {
+            border-radius: 0.94rem;
+            font-size: 1rem;
+            font-weight: 400;
+            padding: 0.94rem;
+            padding-right: 14.43rem;
+        }
+    }
+
+    h4 {
+        color: $color-secundario;
+        font-size: 1.56rem;
+        font-weight: 700;
+        padding-bottom: 1.25rem;
+    }
+}    
+}

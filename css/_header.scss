@@ -1,0 +1,54 @@
+header {
+    nav {
+        .container {
+            align-items: center;
+            background-color:$color-fondo-secundario;
+            color: $color-letras;
+            display: flex;
+            font-weight: 400;
+            justify-content: space-between;
+            padding: 0.25rem;
+            padding-left: 5.63rem;
+            padding-right: 3.75rem;
+        }
+
+        .menu-1 {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .logo {
+            align-items: center;
+            background-color: $color-principal;
+            color: $color-letras;
+            display: flex;
+            justify-content: space-between;
+            padding: 1.25rem;
+            padding-left: 2.69rem;
+        }
+        
+        .logo1 {
+            color:$color-secundario;
+            font-weight: 700;
+            font-size: 1,25rem;
+        }
+        
+        .logo2 {
+            color: $color-fondo-principal;
+            font-size: 1,25rem;
+            font-weight: 700;
+        }
+        
+        .menu-2 {
+            display: flex;
+            font-size: 0,81rem;
+            font-weight: 400;
+            list-style-type: none;
+        }
+        
+        li {
+            padding-left: 1.25rem;
+        }      
+    }
+}
+

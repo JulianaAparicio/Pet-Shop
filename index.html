@@ -5,14 +5,14 @@
     <meta name=”viewport” content”width=device-width, initial-scale=1.0”>
     <title>Front Cat&Dog</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
      <nav>
       <div class="container">
-        <div class="texto">Grandes ofertas en comederos</div>
+        <div>Grandes ofertas en comederos</div>
         <ul class="menu-1">    
             <li><a href="">Español</a></li>
             <li><a href="">ARG$</a></li> 
@@ -46,7 +46,8 @@
           <div class="productos-dest">
             <img src="img/pawprint 1.png" alt="Imagen Patita">
             <h3>Productos Destacados</h3>
-            <p class="subtitulo">Comederos - Accesorios - Comida</p>
+            <div class="subtitulos"><span>Comederos</span><span>-</span><span>Accesorios</span><span>-</span><span>Comida</span>
+            </div>
           </div>
 
           <div class="productos">
@@ -75,16 +76,16 @@
         <section>
           <div class="container-contactanos">
           <h4>Contáctanos</h4>
-          <form action="" method="POST">
-            <label for="name"></label>
-            <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+          <form action="" method="POST" class="form-contactanos">
+            <label for="nombre"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
             <label for="email"></label>
             <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
-            <label for="tel"></label>
-            <input type="text" name="tel" id="tel" placeholder="Teléfono">
+            <label for="telefono"></label>
+            <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
             <div class="form-button">
-              <input class="resetear" type="reset">  
-              <input class="enviar" type="submit">
+              <input class="resetear" type="reset" value="Resetear">  
+              <input class="enviar" type="submit" value="Enviar">
             </div>
           </form>
           </div>
