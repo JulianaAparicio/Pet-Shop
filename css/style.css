@@ -228,32 +228,8 @@ main .container-contactanos {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 59.94rem;
-  padding-top: 1.88rem;
-}
-
-main .container-contactanos .form-contactanos::-webkit-input-placeholder {
-  color: #FFFFFF;
-}
-
-main .container-contactanos .form-contactanos:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-main .container-contactanos .form-contactanos::-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-main .container-contactanos .form-contactanos::placeholder {
-  color: #FFFFFF;
-}
-
-main .container-contactanos form input {
-  border-radius: 0.94rem;
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 0.94rem;
-  padding-right: 14.43rem;
+  height: 30rem;
+  padding-top: 5.34rem;
 }
 
 main .container-contactanos h4 {
@@ -261,6 +237,57 @@ main .container-contactanos h4 {
   font-size: 1.56rem;
   font-weight: 700;
   padding-bottom: 1.25rem;
+}
+
+main .container-contactanos form .form-datos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.63rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container-contactanos form .nombre, main .container-contactanos form .email, main .container-contactanos form .telefono {
+  color: #F3F3F3;
+  background-color: #3C2313;
+  border: 0rem;
+  border-radius: 0.94rem;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: 0;
+  padding: 0.94rem;
+  padding-right: 10rem;
+}
+
+main .container-contactanos .form-button {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.17rem;
+}
+
+main .container-contactanos .form-button .resetear {
+  background-color: #8A8787;
+  border: 0rem;
+  outline: 0;
+  padding: 0.5rem, 1.56rem, 0.5rem, 1.56rem;
+}
+
+main .container-contactanos .form-button .enviar {
+  background-color: #F0A83E;
+  border: 0rem;
+  outline: 0;
+  padding: 0.5rem 1.56rem 0.5rem 1.56rem;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 /* SECCION DE SUSCRIPCION */

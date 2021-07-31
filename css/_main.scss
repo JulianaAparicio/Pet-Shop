@@ -110,28 +110,59 @@ h3 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 59.94rem;
-    padding-top: 1.88rem;
-
-    .form-contactanos::placeholder {
-        color: $color-fondo-principal;
-    }
-
-    form {
-        input {
-            border-radius: 0.94rem;
-            font-size: 1rem;
-            font-weight: 400;
-            padding: 0.94rem;
-            padding-right: 14.43rem;
-        }
-    }
+    height: 30rem;
+    padding-top: 5.34rem;
 
     h4 {
         color: $color-secundario;
         font-size: 1.56rem;
         font-weight: 700;
         padding-bottom: 1.25rem;
+    }
+
+    form {
+        
+        .form-datos {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 0.63rem;
+            justify-content: space-between;
+        }
+
+        .nombre, .email, .telefono {
+            color: $color-letras;
+            background-color: $color-secundario;
+            border: 0rem;
+            border-radius: 0.94rem;
+            font-size: 1rem;
+            font-weight: 400;
+            outline: 0;
+            padding: 0.94rem;
+            padding-right: 10rem;
+        }
+    }
+
+    .form-button {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.17rem;
+
+        .resetear {
+            background-color: $color-boton-1;
+            border: 0rem;
+            outline: 0;
+            padding: 0.5rem, 1.56rem, 0.5rem, 1.56rem;
+        }
+
+        .enviar {
+            background-color: $color-principal;
+            border: 0rem;
+            outline: 0;
+            padding: 0.5rem 1.56rem 0.5rem 1.56rem;
+            padding-right: 25px;
+            padding-left: 25px;
+        }
     }
 }    
 }
