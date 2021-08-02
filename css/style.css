@@ -340,7 +340,7 @@ main .contactanos .container-contactanos .form-button .enviar {
   padding-left: 25px;
 }
 
-.container-suscripcion {
+footer .container-suscripcion {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -348,35 +348,63 @@ main .contactanos .container-contactanos .form-button .enviar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 60px;
-  padding-left: 23px;
-  top: 11449px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.63rem;
 }
 
-.suscripcion-1 {
+footer .container-suscripcion .suscripcion-1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.63rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 0.90rem;
+}
+
+footer .container-suscripcion .suscripcion-1 h4 {
   color: #FFFFFF;
-  font-size: 1,25rem;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 270px;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
-.suscripcion-2 {
+footer .container-suscripcion .suscripcion-2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.63rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 2.31rem;
+}
+
+footer .container-suscripcion .suscripcion-2 .correo-suscripcion {
   background-color: #FFFFFF;
-  border-radius: 15px;
-  color: #A0A0A0;
+  border: 0rem;
+  border-radius: 0.94rem;
+  color: #666666;
   font-size: 0,56rem;
-  margin-left: 270px;
-  padding: 14px 148px 15px 8px;
+  padding: 0.94rem;
+  padding-right: 9.25rem;
 }
 
-.boton-suscribirme {
+footer .container-suscripcion .suscripcion-2 .boton-suscribirme {
   background-color: #3C2313;
-  border-radius: 15px;
+  border: 0rem;
+  border-radius: 0.94rem;
   color: #FFFFFF;
-  margin-left: 5px;
-  margin-right: 47px;
-  padding: 12px;
+  font-weight: 700;
+  padding: 0.75rem;
 }
 
 /* FOOTER SECTOR DATOS DE LA EMPRESA */

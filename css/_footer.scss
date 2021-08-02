@@ -1,36 +1,51 @@
+footer {
+    .container-suscripcion {
+        align-items: center;
+        background-color: $color-principal;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.63rem;
 
-.container-suscripcion {
-    align-items: center;
-    background-color: $color-principal;
-    display: flex;
-    height: 60px;
-    padding-left: 23px;
-    top: 11449px;
-}
+        .suscripcion-1 {
+            align-items: center;
+            display: flex;
+            gap: 0.63rem;
+            justify-content: flex-start;
+            padding-left: 0.90rem;
 
-.suscripcion-1 {
-    color: #FFFFFF;
-    font-size: 1,25rem;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 270px;
-}
+            h4 {
+                color: $color-fondo-principal;
+                font-size: 1.25rem;
+                font-weight: 700;
+            }
+        }
+       
+        .suscripcion-2 {
+            align-items: center;
+            display: flex;
+            gap: 0.63rem;
+            justify-content: flex-end;
+            padding-right: 2.31rem;
 
-.suscripcion-2 {
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    color:#A0A0A0;
-    font-size: 0,56rem;
-    margin-left: 270px;
-    padding: 14px 148px 15px 8px;
-
-}
-
-.boton-suscribirme {
-    background-color: #3C2313;
-    border-radius: 15px;
-    color:#FFFFFF;
-    margin-left: 5px;
-    margin-right: 47px;
-    padding: 12px;
+            .correo-suscripcion {
+                background-color: $color-fondo-principal;
+                border: 0rem;
+                border-radius: 0.94rem;
+                color: $color-letrita;
+                font-size: 0,56rem;
+                padding: 0.94rem;
+                padding-right: 9.25rem;
+            
+            }
+            
+            .boton-suscribirme {
+                background-color: $color-secundario;
+                border: 0rem;
+                border-radius: 0.94rem;
+                color: $color-fondo-principal;
+                font-weight: 700;
+                padding: 0.75rem;
+            } 
+        }
+    }
 }
