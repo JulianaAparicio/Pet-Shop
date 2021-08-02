@@ -217,7 +217,19 @@ main .productos .producto1 .nombre-producto, main .productos .producto2 .nombre-
   color: #3C2313;
 }
 
-main .container-contactanos {
+main .contactanos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .contactanos .container-contactanos {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -228,18 +240,21 @@ main .container-contactanos {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 30rem;
   padding-top: 5.34rem;
 }
 
-main .container-contactanos h4 {
+main .contactanos .container-contactanos h4 {
   color: #3C2313;
   font-size: 1.56rem;
   font-weight: 700;
   padding-bottom: 1.25rem;
 }
 
-main .container-contactanos form .form-datos {
+main .contactanos .container-contactanos form .form-datos {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -256,91 +271,67 @@ main .container-contactanos form .form-datos {
           justify-content: space-between;
 }
 
-main .container-contactanos form .nombre, main .container-contactanos form .email, main .container-contactanos form .telefono {
-  color: #F3F3F3;
+main .contactanos .container-contactanos form .form-datos ::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+main .contactanos .container-contactanos form .form-datos :-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+main .contactanos .container-contactanos form .form-datos ::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+main .contactanos .container-contactanos form .form-datos ::placeholder {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  opacity: 1;
+}
+
+main .contactanos .container-contactanos form .nombre, main .contactanos .container-contactanos form .email, main .contactanos .container-contactanos form .telefono {
   background-color: #3C2313;
   border: 0rem;
   border-radius: 0.94rem;
-  font-size: 1rem;
+  color: #FFFFFF;
+  font-size: 0.8rem;
   font-weight: 400;
   outline: 0;
   padding: 0.94rem;
   padding-right: 10rem;
 }
 
-main .container-contactanos .form-button {
+main .contactanos .container-contactanos .form-button {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.17rem;
 }
 
-main .container-contactanos .form-button .resetear {
+main .contactanos .container-contactanos .form-button .resetear {
   background-color: #8A8787;
   border: 0rem;
+  border-radius: 0.94rem;
+  color: #FFFFFF;
   outline: 0;
-  padding: 0.5rem, 1.56rem, 0.5rem, 1.56rem;
+  padding: 0.5rem 1.56rem 0.5rem 1.56rem;
 }
 
-main .container-contactanos .form-button .enviar {
+main .contactanos .container-contactanos .form-button .enviar {
   background-color: #F0A83E;
   border: 0rem;
+  border-radius: 0.94rem;
+  color: #FFFFFF;
   outline: 0;
   padding: 0.5rem 1.56rem 0.5rem 1.56rem;
   padding-right: 25px;
   padding-left: 25px;
 }
 
-/* SECCION DE SUSCRIPCION */
-/* agregado:*/
-.container-contactanos {
-  height: 200px;
-  margin-left: 340px;
-  margin-right: 340px;
-  max-width: 340px;
-  padding-bottom: 75px;
-}
-
-form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.form-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 8px;
-  padding-top: 41px;
-}
-
-.resetear, .enviar {
-  border-radius: 15px;
-  color: #FFFFFF;
-  padding: 8px 25px 8px 22px;
-}
-
-.resetear {
-  background-color: #8A8787;
-}
-
-.enviar {
-  background-color: #F0A83E;
-}
-
-/*                           Fin MAIN                          */
-/*                         Inicio FOOTER                       */
-/* FOOTER SECTOR SUSCRIPCION */
 .container-suscripcion {
   -webkit-box-align: center;
       -ms-flex-align: center;

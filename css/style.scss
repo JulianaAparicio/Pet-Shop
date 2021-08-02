@@ -2,92 +2,10 @@
 @import "base";
 @import "header";
 @import "main";
-
-/* SECCION DE SUSCRIPCION */
-
-/* agregado:*/
-
-.container-contactanos {
-    height: 200px;
-    margin-left: 340px;
-    margin-right: 340px;
-    max-width: 340px;
-    padding-bottom: 75px;
-}
-
-form {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-button {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding-top: 41px;
-}
-
-.resetear, .enviar {
-    border-radius: 15px;
-    color: #FFFFFF; 
-    padding: 8px 25px 8px 22px;
-}
-
-.resetear {
-    background-color: #8A8787;
-}
-
-.enviar {
-    background-color: #F0A83E;
-}
+@import "footer";
 
 
 
-/*                           Fin MAIN                          */
-
-
-
-
-/*                         Inicio FOOTER                       */
-
-/* FOOTER SECTOR SUSCRIPCION */
-
-.container-suscripcion {
-    align-items: center;
-    background-color: #F0A83E;
-    display: flex;
-    height: 60px;
-    padding-left: 23px;
-    top: 11449px;
-}
-
-.suscripcion-1 {
-    color: #FFFFFF;
-    font-size: 1,25rem;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 270px;
-}
-
-.suscripcion-2 {
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    color:#A0A0A0;
-    font-size: 0,56rem;
-    margin-left: 270px;
-    padding: 14px 148px 15px 8px;
-
-}
-
-.boton-suscribirme {
-    background-color: #3C2313;
-    border-radius: 15px;
-    color:#FFFFFF;
-    margin-left: 5px;
-    margin-right: 47px;
-    padding: 12px;
-}
 
 /* FOOTER SECTOR DATOS DE LA EMPRESA */
 
