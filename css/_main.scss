@@ -156,8 +156,12 @@ h3 {
         }
     
         .form-button {
+            display: flex;
             font-size: 1rem;
             font-weight: 400;
+            justify-content: center;
+            margin: 2.56rem;
+            gap: 0.63rem;
     
             .resetear {
                 background-color: $color-boton-1;
