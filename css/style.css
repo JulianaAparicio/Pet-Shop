@@ -49,39 +49,55 @@ header nav .logo {
       -ms-flex-align: center;
           align-items: center;
   background-color: #F0A83E;
-  color: #F3F3F3;
+  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header nav .logo h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 700;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 1.25rem;
   padding-left: 2.69rem;
 }
 
-header nav .logo1 {
+header nav .logo h1 .logo1 {
   color: #3C2313;
-  font-weight: 700;
-  font-size: 1.25rem;
 }
 
-header nav .logo2 {
+header nav .logo h1 .logo2 {
   color: #FFFFFF;
-  font-size: 1.25rem;
-  font-weight: 700;
 }
 
-header nav .menu-2 {
+header nav .logo ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 2.5rem;
+}
+
+header nav .logo ul li {
   list-style-type: none;
 }
 
-header nav .menu-2 li {
+header nav .logo ul li img {
   font-size: 0.81rem;
   font-weight: 400;
+  line-height: 1rem;
   padding-left: 1.25rem;
 }
 
@@ -420,9 +436,6 @@ footer .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 1.44rem;
 }
 
@@ -442,12 +455,10 @@ footer .footer-container .footer-iconos {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-left: 2.94rem;
+  padding-right: 1.56rem;
 }
 
 footer .footer-container .footer-datos {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,18 +466,9 @@ footer .footer-container .footer-datos {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 3.25rem;
   font-weight: bold;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  padding-bottom: 3.19rem;
-  padding-right: 48.43rem;
-}
-
-footer .footer-container .footer-datos p {
-  color: #8A8787;
-  font-size: 0.63rem;
-  line-height: 0.75rem;
+  padding-right: 49.10rem;
 }
 
 footer .footer-container .footer-datos h5 {
@@ -475,22 +477,25 @@ footer .footer-container .footer-datos h5 {
   line-height: 1.44rem;
 }
 
+footer .footer-container .footer-datos p {
+  color: #8A8787;
+  font-size: 0.63rem;
+  line-height: 0.75rem;
+}
+
 footer .footer-container .footer-logo {
   background-color: #3C2313;
-  bottom: 160px;
-  left: 1100px;
+  font-weight: 700;
 }
 
-footer .footer-container .logofooter1 {
+footer .footer-container .footer-logo .logofooter1 {
   color: #FFFFFF;
-  font-weight: 700;
   font-size: 1.25rem;
 }
 
-footer .footer-container .logofooter2 {
+footer .footer-container .footer-logo .logofooter2 {
   color: #F0A83E;
   font-size: 1.25rem;
-  font-weight: normal;
 }
 
 footer .footer-abajo {
@@ -509,7 +514,7 @@ footer .footer-abajo {
 
 footer .footer-abajo p {
   color: #FFFFFF;
-  font-size: 0.94rem;
-  font-weight: bold;
+  font-size: 0.73rem;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

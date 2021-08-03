@@ -55,7 +55,6 @@ footer {
         align-items: center;
         background-color: $color-secundario;
         display: flex;
-        justify-content: space-between;
         padding: 1.44rem;
 
         .footer-iconos {
@@ -65,46 +64,42 @@ footer {
             gap: 1.25rem;
             justify-content: space-evenly;
             padding-left: 2.94rem;
+            padding-right: 1.56rem;
         }
 
         .footer-datos {
-            align-items: flex-start;
             display: flex;
             flex-direction: column;
+            gap: 3.25rem;
             font-weight: bold;
-            justify-content: stretch;
-            padding-bottom: 3.19rem;
-            padding-right: 48.43rem;
+            padding-right: 49.10rem;
+
+            h5 {
+                color: $color-fondo-principal;  
+                font-size: 1.25rem;  
+                line-height: 1.44rem;
+            }
 
             p {
                 color: $color-boton-1; 
                 font-size: 0.63rem;
                 line-height: 0.75rem;
             }
-    
-            h5 {
-                color: $color-fondo-principal;  
-                font-size: 1.25rem;  
-                line-height: 1.44rem;
-            }
         }
 
         .footer-logo {
             background-color: $color-secundario;
-            bottom: 160px;
-            left: 1100px;
-        }
-        
-        .logofooter1 {
-            color: $color-fondo-principal;
             font-weight: 700;
-            font-size: 1.25rem;
-        }
-        
-        .logofooter2 {
-            color: $color-principal;
-            font-size: 1.25rem;
-            font-weight: normal;
+
+            .logofooter1 {
+                color: $color-fondo-principal;
+                font-size: 1.25rem;
+            }
+            
+            .logofooter2 {
+                color: $color-principal;
+                font-size: 1.25rem;
+            }
         }
     }
     
@@ -114,11 +109,11 @@ footer {
         display: flex;
         justify-content: center;
         padding: 0.3rem;
-    }
-    
-    .footer-abajo p {
-        color: $color-fondo-principal;
-        font-size: 0.94rem;
-        font-weight: bold;
+
+        p {
+            color: $color-fondo-principal;
+            font-size: 0.73rem;
+            font-weight: 700;
+        }
     }
 }

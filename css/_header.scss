@@ -2,7 +2,7 @@ header {
     nav {
         .container {
             align-items: center;
-            background-color:$color-fondo-secundario;
+            background-color: $color-fondo-secundario;
             color: $color-letras;
             display: flex;
             font-weight: 400;
@@ -14,48 +14,57 @@ header {
             .menu-1 {
                 display: flex;
                 list-style-type: none;
-    
+
                 li {
-                    a{
+                    a {
                         font-weight: 400;
                         padding-left: 1.25rem;
                     }
-                } 
+                }
             }
         }
 
         .logo {
             align-items: center;
             background-color: $color-principal;
-            color: $color-letras;
+            color: $color-fondo-principal;
             display: flex;
             justify-content: space-between;
-            padding: 1.25rem;
-            padding-left: 2.69rem;
-        }
-        
-        .logo1 {
-            color:$color-secundario;
-            font-weight: 700;
-            font-size: 1.25rem;
-        }
-        
-        .logo2 {
-            color: $color-fondo-principal;
-            font-size: 1.25rem;
-            font-weight: 700;
-        }
-        
-        .menu-2 {
-            display: flex;
-            list-style-type: none;
 
-            li {
-                font-size: 0.81rem;
-                font-weight: 400;
-                padding-left: 1.25rem;
-            } 
-        }     
+            h1 {
+                align-items: center;
+                color: $color-letras;
+                display: flex;
+                font-size: 1.25rem;
+                font-weight: 700;
+                justify-content: flex-start;
+                padding: 1.25rem;
+                padding-left: 2.69rem;
+
+                .logo1 {
+                    color: $color-secundario;
+                }
+
+                .logo2 {
+                    color: $color-fondo-principal;
+                }
+            }
+
+            ul {
+                display: flex;
+                padding-right: 2.5rem;
+                
+                li {
+                    list-style-type: none;
+
+                    img {
+                        font-size: 0.81rem;
+                        font-weight: 400;
+                        line-height: 1rem;
+                        padding-left: 1.25rem;
+                    }
+                }
+            }
+        }
     }
 }
-
