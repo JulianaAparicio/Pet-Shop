@@ -10,11 +10,18 @@ header {
             padding: 0.25rem;
             padding-left: 5.63rem;
             padding-right: 3.75rem;
-        }
 
-        .menu-1 {
-            display: flex;
-            list-style-type: none;
+            .menu-1 {
+                display: flex;
+                list-style-type: none;
+    
+                li {
+                    a{
+                        font-weight: 400;
+                        padding-left: 1.25rem;
+                    }
+                } 
+            }
         }
 
         .logo {
@@ -30,25 +37,25 @@ header {
         .logo1 {
             color:$color-secundario;
             font-weight: 700;
-            font-size: 1,25rem;
+            font-size: 1.25rem;
         }
         
         .logo2 {
             color: $color-fondo-principal;
-            font-size: 1,25rem;
+            font-size: 1.25rem;
             font-weight: 700;
         }
         
         .menu-2 {
             display: flex;
-            font-size: 0,81rem;
-            font-weight: 400;
             list-style-type: none;
-        }
-        
-        li {
-            padding-left: 1.25rem;
-        }      
+
+            li {
+                font-size: 0.81rem;
+                font-weight: 400;
+                padding-left: 1.25rem;
+            } 
+        }     
     }
 }
 

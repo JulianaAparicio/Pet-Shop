@@ -32,11 +32,16 @@ header nav .container {
   padding-right: 3.75rem;
 }
 
-header nav .menu-1 {
+header nav .container .menu-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+}
+
+header nav .container .menu-1 li a {
+  font-weight: 400;
+  padding-left: 1.25rem;
 }
 
 header nav .logo {
@@ -58,12 +63,12 @@ header nav .logo {
 header nav .logo1 {
   color: #3C2313;
   font-weight: 700;
-  font-size: 1,25rem;
+  font-size: 1.25rem;
 }
 
 header nav .logo2 {
   color: #FFFFFF;
-  font-size: 1,25rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -71,12 +76,12 @@ header nav .menu-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0,81rem;
-  font-weight: 400;
   list-style-type: none;
 }
 
-header nav li {
+header nav .menu-2 li {
+  font-size: 0.81rem;
+  font-weight: 400;
   padding-left: 1.25rem;
 }
 
@@ -407,58 +412,88 @@ footer .container-suscripcion .suscripcion-2 .boton-suscribirme {
   padding: 0.75rem;
 }
 
-/* FOOTER SECTOR DATOS DE LA EMPRESA */
-.footer-container {
-  position: relative;
-}
-
-.footer-datos {
+footer .footer-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #3C2313;
-  height: 350px;
-  padding-bottom: 50px;
-  padding-left: 70px;
-  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.44rem;
 }
 
-.footer-datos p {
+footer .footer-container .footer-iconos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 2.94rem;
+}
+
+footer .footer-container .footer-datos {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  padding-bottom: 3.19rem;
+  padding-right: 48.43rem;
+}
+
+footer .footer-container .footer-datos p {
   color: #8A8787;
-  font-size: 0,63rem;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 12px;
-  padding-left: 91px;
+  font-size: 0.63rem;
+  line-height: 0.75rem;
 }
 
-.footer-localidad div, .footer-telefono div, .footer-correo div {
+footer .footer-container .footer-datos h5 {
   color: #FFFFFF;
-  font-size: 1,25rem;
-  font-style: normal;
-  font-weight: bold;
-  padding-left: 91px;
+  font-size: 1.25rem;
+  line-height: 1.44rem;
 }
 
-.footer-logo {
+footer .footer-container .footer-logo {
   background-color: #3C2313;
   bottom: 160px;
   left: 1100px;
-  position: absolute;
 }
 
-.logofooter1 {
+footer .footer-container .logofooter1 {
   color: #FFFFFF;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1,25rem;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
-.logofooter2 {
+footer .footer-container .logofooter2 {
   color: #F0A83E;
-  font-size: 1,25rem;
-  font-style: normal;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 
-.footer-abajo {
+footer .footer-abajo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -472,12 +507,9 @@ footer .container-suscripcion .suscripcion-2 .boton-suscribirme {
   padding: 0.3rem;
 }
 
-.footer-abajo p {
+footer .footer-abajo p {
   color: #FFFFFF;
-  font-size: 0,94rem;
-  font-style: normal;
+  font-size: 0.94rem;
   font-weight: bold;
 }
-
-/*                         Fin FOOTER                       */
 /*# sourceMappingURL=style.css.map */
