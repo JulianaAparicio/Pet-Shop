@@ -55,6 +55,7 @@ footer {
         align-items: center;
         background-color: $color-secundario;
         display: flex;
+        justify-content: flex-end;
         padding: 1.44rem;
 
         .footer-iconos {
